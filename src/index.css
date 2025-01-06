@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.card{
+  border: 1px solid gray;
+  max-width: 200px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  transition: all .5s;
+
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+
+.card .card-img{
+  max-width: 60%;
+  border-radius: 50%;
+}
+
+.card .card-title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(39, 108, 110);
+}
+
+.card .card-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(42, 66, 67);
+}
+
+#sidebar{
+  min-height: 70dvh;
+}
+
+
+
+#main-nav.active{
+  background-color: #198754;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+#gallery-nav.active{
+  background-color: #5668f4d3;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+
+
+.double-bounce1, .double-bounce2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #1ABC9C;
+  opacity: 0.6;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+
+/* CHECKBOX TOGGLE SWITCH */
+/* @apply rules for documentation, these do not work as inline style */
+.toggle-checkbox:checked {
+  @apply: right-0 border-green-400;
+  right: 0;
+  border-color: #68D391;
+}
+.toggle-checkbox:checked + .toggle-label {
+  @apply: bg-green-400;
+  background-color: #68D391;
+}
