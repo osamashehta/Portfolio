@@ -31,7 +31,7 @@ function Home() {
             </p>
             <p className="text-xl dark:text-white my-1 font-bold font-mono mb-5">
               I'M{" "}
-              <span className="text-xl font-bold text-blue-700 dark:text-emerald-500 ">
+              <span className="text-xl md:text-3xl font-bold text-blue-700 dark:text-emerald-500 ">
                 {" "}
                 Osama Shehta
               </span>
@@ -40,7 +40,7 @@ function Home() {
               I'M{" "}
               <span
                 ref={el}
-                className="text-xl  text-blue-700 dark:text-emerald-500"
+                className="text-xl md:text-3xl  text-blue-700 dark:text-emerald-500"
               ></span>
             </span>
             <div className="cv w-full flex">
