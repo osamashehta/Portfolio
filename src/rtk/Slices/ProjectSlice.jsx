@@ -8,7 +8,7 @@ import loginImg from "../../assets/login.png";
 import crudImg from "../../assets/crud.png";
 import weatherImg from "../../assets/weather.png";
 import gameImg from "../../assets/game.png";
-import PortfolioImg from "../../assets/Portfolio.png";
+import portfolioImg from "../../assets/portfolio.png";
 
 export const projectSlice = createSlice({
   initialState: {
@@ -111,7 +111,7 @@ export const projectSlice = createSlice({
           "This portfolio, built using React, Tailwind CSS, and Redux Toolkit, serves as a professional showcase of my skills, experience, and projects. The application features a dynamic and responsive design.",
         demoURL: "https://osama-shehta.netlify.app/",
         githubURL: "https://github.com/osamashehta/Portfolio",
-        img: PortfolioImg,
+        img: portfolioImg,
         tools: ["React", "Tailwind CSS", "Redux Toolkit"],
       },
     ],
