@@ -1,8 +1,21 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This portfolio, built using React, Tailwind CSS, and Redux Toolkit, serves as a professional showcase of my skills, experience, and
+projects. The application features a dynamic and responsive design.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Technologies Used
+
+- **React**: For building the user interface with dynamic and interactive components.
+- **Tailwind CSS**: For utility-first, responsive design and efficient styling.
+- **Redux Toolkit**: For state management, ensuring predictable and centralized data handling across the application.
+
+
+![React Badge](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white)
+![Redux Toolkit Badge](https://img.shields.io/badge/Redux%20Toolkit-764ABC?style=flat&logo=redux&logoColor=white)
+
+
+
+

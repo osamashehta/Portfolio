@@ -7,9 +7,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css"
 import { store } from './rtk/Store.jsx'
 import { Provider } from 'react-redux'
 createRoot(document.getElementById('root')).render(
-  // <StrictMode>
   <Provider store={store}>
     <App />
   </Provider>
-  // </StrictMode>,
 )
