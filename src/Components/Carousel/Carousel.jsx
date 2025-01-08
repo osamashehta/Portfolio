@@ -1,7 +1,4 @@
-import {
-  FaGithub,
-  FaLink,
-} from "react-icons/fa";
+import { FaGithub, FaLink } from "react-icons/fa";
 import { IoIosCloseCircle } from "react-icons/io";
 import { useDispatch, useSelector } from "react-redux";
 import { handleClose } from "../../rtk/Slices/LayerSlice";
@@ -10,7 +7,6 @@ function Carousel() {
   let layer = useSelector((state) => state.layer);
   const dispatch = useDispatch();
   let { fondedProject } = useSelector((state) => state.project);
-
 
   return (
     <>
@@ -78,7 +74,7 @@ function Carousel() {
 
           <IoIosCloseCircle
             onClick={() => dispatch(handleClose())}
-            className="absolute top-2 right-2 text-3xl text-white cursor-pointer hover:text-red-500"
+            className="absolute top-2 right-2 text-3xl  cursor-pointer text-red-500"
           />
         </div>
       </div>

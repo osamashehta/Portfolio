@@ -1,4 +1,3 @@
-import React from "react";
 import { FaPhone } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
 import Swal from "sweetalert2";
@@ -37,10 +36,8 @@ function Contact() {
       <div className="w-full bg-white dark:bg-slate-800 pt-12 pb-6 ">
         <div className="w-full flex justify-center">
           <div className="w-fit  my-3 dark:text-white text-3xl font-bold border-b-4 border-dashed border-blue-700 dark:border-emerald-500 py-2 ">
-            <span className="text-blue-700 dark:text-emerald-500 ">
-              Contact
-            </span>{" "}
-            Us
+            <span className="text-blue-700 dark:text-emerald-500 ">Get in</span>{" "}
+            Touch
           </div>
         </div>
 
@@ -103,18 +100,21 @@ function Contact() {
               name="name"
               placeholder="Full Name..."
               className="w-full  bg-gray-300 rounded-lg "
+              required
             />
             <input
               type="email"
               name="email"
               placeholder="Email@gmail.com"
               className="w-full bg-gray-300 rounded-lg "
+              required
             />
             <textarea
               rows={4}
               name="message"
               placeholder="Send a message..."
               className="w-full bg-gray-300 rounded-lg  "
+              required
             ></textarea>
             <div className="flex justify-center items-center my-6">
               <button
