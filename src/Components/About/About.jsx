@@ -1,6 +1,6 @@
 import about from "../../assets/about.png";
 import Skills from "../Skills/Skills";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import {
   FaBootstrap,
   FaCss3,
@@ -11,7 +11,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiPostman, SiReactrouter, SiRedux, SiSass } from "react-icons/si";
+import { SiPostman, SiReactrouter, SiRedux, SiSass, SiTypescript } from "react-icons/si";
 import DownloadCV from "../DownloadCV/DownloadCV";
 
 function About() {
@@ -67,6 +67,8 @@ function About() {
             <Skills brand={<FaReact />} brandName={"React"} />
             <Skills brand={<SiReactrouter />} brandName={"React Router"} />
             <Skills brand={<RiTailwindCssFill />} brandName={"Tailwind"} />
+            <Skills brand={<SiTypescript />} brandName={"Typescript"} />
+            <Skills brand={<RiNextjsFill />} brandName={"Next.js"} />
             <Skills brand={<SiRedux />} brandName={"Redux"} />
             <Skills brand={<SiSass />} brandName={"Sass"} />
             <Skills brand={<FaGitAlt />} brandName={"Git"} />
