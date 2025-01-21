@@ -8,6 +8,7 @@ import loginImg from "../../assets/login.png";
 import crudImg from "../../assets/crud.png";
 import weatherImg from "../../assets/weather.png";
 import gameImg from "../../assets/game.png";
+import quickImg from "../../assets/quick.jpg";
 import portfolioImg from "../../assets/portfolio.png";
 
 export const projectSlice = createSlice({
@@ -105,6 +106,17 @@ export const projectSlice = createSlice({
 
       {
         id: 8,
+        title: "QuickCart",
+        category: "react",
+        description:
+          "QuickCart is a modern e-commerce web application that provides a seamless shopping experience. Built using React, Redux Toolkit, and Tailwind CSS, this application features a dynamic and responsive design. It enables users to browse products, manage their cart, and switch between light and dark modes effortlessly.",
+        demoURL: "https://quick-cart-one.vercel.app/",
+        githubURL: "https://github.com/osamashehta/QuickCart",
+        img: quickImg,
+        tools: ["React", "Tailwind CSS", "Redux Toolkit", "Fake Store API"],
+      },
+      {
+        id: 9,
         title: "Portfolio",
         category: "react",
         description:
