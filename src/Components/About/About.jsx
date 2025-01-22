@@ -11,7 +11,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiPostman, SiReactrouter, SiRedux, SiSass, SiTypescript } from "react-icons/si";
+import { SiJquery, SiPostman, SiReactrouter, SiRedux, SiSass, SiTypescript } from "react-icons/si";
 import DownloadCV from "../DownloadCV/DownloadCV";
 
 function About() {
@@ -64,6 +64,7 @@ function About() {
             <Skills brand={<FaCss3 />} brandName={"CSS"} />
             <Skills brand={<FaBootstrap />} brandName={"Bootstrap"} />
             <Skills brand={<IoLogoJavascript />} brandName={"Javascript"} />
+            <Skills brand={<SiJquery />} brandName={"jQuery"} />
             <Skills brand={<FaReact />} brandName={"React"} />
             <Skills brand={<SiReactrouter />} brandName={"React Router"} />
             <Skills brand={<RiTailwindCssFill />} brandName={"Tailwind"} />
