@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="w-full bg-slate-200 dark:bg-slate-900 overflow-auto">
-      <div className="footerUp text-center m-12">
+      <div className="footerUp text-center w-4/5 mx-auto m-2 py-4   border-b-[1px] border-slate-500">
         <p className="uppercase  text-3xl font-semibold dark:text-white ">
           FIND ME ON
         </p>
@@ -52,7 +52,7 @@ function Footer() {
       </div>
 
 
-      <div className=" bg-slate-300 dark:bg-slate-950 overflow-auto">
+      <div className="   overflow-auto py-2">
         <p className="text-center font-light text-2xl my-6 dark:text-white w-4/5 mx-auto">Designed and Developed by <a
               href="https://www.linkedin.com/in/osama-shehta/"
               target="_blank"

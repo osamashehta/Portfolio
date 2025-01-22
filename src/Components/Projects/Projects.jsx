@@ -3,6 +3,7 @@ import Carousel from "../Carousel/Carousel";
 import { useDispatch } from "react-redux";
 import { handleOpen } from "../../rtk/Slices/LayerSlice";
 import { handleCurrentIndex } from "../../rtk/Slices/ProjectSlice";
+import SEO from "../SEO/SEO";
 
 function Projects({ project }) {
  
@@ -13,6 +14,7 @@ function Projects({ project }) {
 
   return (
     <>
+    <SEO title={"Projects"} description={"Projects"}/>
       <div className="w-full md:w-2/5 border-blue-500 dark:border-emerald-500 border-2 p-2 rounded-xl space-y-2 flex flex-wrap justify-center hover:shadow-md hover:shadow-blue-400 dark:hover:shadow-emerald-400 hover:rotate-2 transition-all duration-500">
         <div className="img text-center ">
           <img src={project.img} alt="" className="w-full rounded-xl" />
