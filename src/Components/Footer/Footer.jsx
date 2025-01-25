@@ -1,5 +1,3 @@
-import React from "react";
-
 function Footer() {
   return (
     <div className="w-full bg-slate-200 dark:bg-slate-900 overflow-auto">
@@ -51,15 +49,17 @@ function Footer() {
         </ul>
       </div>
 
-
       <div className="   overflow-auto py-2">
-        <p className="text-center font-light text-2xl my-6 dark:text-white w-4/5 mx-auto">Designed and Developed by <a
-              href="https://www.linkedin.com/in/osama-shehta/"
-              target="_blank"
-              className="text-blue-700 dark:text-emerald-500 font-bold"
-            >
-              Osama Shehta
-            </a></p>
+        <p className="text-center font-light text-2xl my-6 dark:text-white w-4/5 mx-auto">
+          Designed and Developed by{" "}
+          <a
+            href="https://www.linkedin.com/in/osama-shehta/"
+            target="_blank"
+            className="text-blue-700 dark:text-emerald-500 font-bold"
+          >
+            Osama Shehta
+          </a>
+        </p>
       </div>
     </div>
   );

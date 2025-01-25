@@ -6,7 +6,7 @@ function Nav() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50); 
+      setIsScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -44,7 +44,7 @@ function Nav() {
   return (
     <>
       <nav
-        className={`w-full   fixed top-0 z-20 px-6 pt-1  flex flex-wrap md:flex-nowrap  items-center  font-bold
+        className={`w-full   fixed top-0 z-20 px-6 py-2  flex flex-wrap md:flex-nowrap  items-center  font-bold
             transition-all duration-[450ms]
       ${
         isScrolled

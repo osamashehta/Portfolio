@@ -34,7 +34,7 @@ function Contact() {
   };
   return (
     <>
-    <SEO title={"Contact"} description={"Get in Touch"}/>
+      <SEO title={"Contact"} description={"Get in Touch"} />
       <div className="w-full bg-white dark:bg-slate-800 pt-12 pb-6 ">
         <div className="w-full flex justify-center">
           <div className="w-fit  my-3 dark:text-white text-3xl font-bold border-b-4 border-dashed border-blue-700 dark:border-emerald-500 py-2 ">

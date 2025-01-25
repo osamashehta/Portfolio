@@ -7,6 +7,5 @@ export const store = configureStore({
   reducer: {
     layer: layerReducer,
     project: projectReducer,
-   
   },
 });

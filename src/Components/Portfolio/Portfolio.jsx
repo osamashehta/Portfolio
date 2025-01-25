@@ -1,4 +1,4 @@
-import  { useEffect } from "react";
+import { useEffect } from "react";
 import Projects from "../Projects/Projects";
 import { useDispatch, useSelector } from "react-redux";
 import { handleCategory } from "../../rtk/Slices/ProjectSlice";

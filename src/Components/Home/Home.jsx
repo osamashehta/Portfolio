@@ -24,7 +24,7 @@ function Home() {
 
   return (
     <>
-    <SEO title={"Osama Shehta"} description={"Portfolio"}/>
+      <SEO title={"Osama Shehta"} description={"Portfolio"} />
       <div id="main" className="w-full bg-white dark:bg-slate-800  pt-12 pb-6 ">
         <div className="md:flex w-4/5 mx-auto m-6">
           <div className="w-full md:w-8/12 my-2">
