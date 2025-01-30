@@ -48,8 +48,8 @@ function Nav() {
             transition-all duration-[450ms]
       ${
         isScrolled
-          ? "bg-blue-600 dark:bg-emerald-700 text-white  "
-          : "text-blue-600 dark:text-emerald-500 dark:bg-[#1E293B] bg-white py-2"
+          ? "bg-blue-600  text-white  dark:bg-[#334155]"
+          : "text-blue-600 dark:text-white  dark:bg-slate-800 bg-white py-2"
       }
 
        `}
@@ -61,22 +61,22 @@ function Nav() {
         </div>
         <div className="link w-2/3 justify-items-end ">
           <ul className=" space-x-10 hidden md:flex">
-            <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-emerald-700 hover:text-white px-2 py-1 rounded-lg">
+            <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg">
               <NavLink to={""} className="uppercase">
                 home
               </NavLink>
             </li>
-            <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-emerald-700 hover:text-white px-2 py-1 rounded-lg">
+            <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg">
               <NavLink to={"about"} className="uppercase">
                 about
               </NavLink>
             </li>
-            <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-emerald-700 hover:text-white px-2 py-1 rounded-lg">
+            <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg">
               <NavLink to={"portfolio"} className="uppercase">
                 Projects
               </NavLink>
             </li>
-            <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-emerald-700 hover:text-white px-2 py-1 rounded-lg">
+            <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg">
               <NavLink to={"contact"} className="uppercase">
                 contact
               </NavLink>
@@ -161,22 +161,22 @@ function Nav() {
         {isOpen ? (
           <div className="link-mobile w-full text-center my-2  md:hidden ">
             <ul className="md:w-full">
-              <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-emerald-700   hover:text-white px-2 py-1 rounded-lg ">
+              <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-slate-700   hover:text-white px-2 py-1 rounded-lg ">
                 <NavLink to={""} className="uppercase">
                   home
                 </NavLink>
               </li>
-              <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-emerald-700 hover:text-white px-2 py-1 rounded-lg ">
+              <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg ">
                 <NavLink to={"about"} className="uppercase">
                   about
                 </NavLink>
               </li>
-              <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-emerald-700 hover:text-white px-2 py-1 rounded-lg ">
+              <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg ">
                 <NavLink to={"portfolio"} className="uppercase">
                   Projects
                 </NavLink>
               </li>
-              <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-emerald-700 hover:text-white px-2 py-1 rounded-lg ">
+              <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg ">
                 <NavLink to={"contact"} className="uppercase">
                   contact
                 </NavLink>

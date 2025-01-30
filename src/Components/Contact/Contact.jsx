@@ -2,6 +2,7 @@ import { FaPhone } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
 import Swal from "sweetalert2";
 import SEO from "../SEO/SEO";
+import { MdOutlineMail } from "react-icons/md";
 
 function Contact() {
   const onSubmit = async (event) => {
@@ -37,8 +38,8 @@ function Contact() {
       <SEO title={"Contact"} description={"Get in Touch"} />
       <div className="w-full bg-white dark:bg-slate-800 pt-12 pb-6 ">
         <div className="w-full flex justify-center">
-          <div className="w-fit  my-3 dark:text-white text-3xl font-bold border-b-4 border-dashed border-blue-700 dark:border-emerald-500 py-2 ">
-            <span className="text-blue-700 dark:text-emerald-500 ">Get in</span>{" "}
+          <div className="w-fit  my-3 dark:text-white text-3xl font-bold border-b-4 border-dashed border-blue-700 dark:border-yellow-200 py-2 ">
+            <span className="text-blue-700 dark:text-yellow-200 ">Get in</span>{" "}
             Touch
           </div>
         </div>
@@ -50,7 +51,7 @@ function Contact() {
                 <IoLocationOutline className="fa-regular fa-envelope text-xl text-white dark:text-emerald-700" />
               </div>
 
-              <p className="text-blue-700 dark:text-emerald-500 md:text-xl font-semibold">
+              <p className="text-blue-700 dark:text-yellow-200 md:text-xl font-semibold">
                 Location
               </p>
               <p className=" dark:text-white md:text-xl font-semibold ">
@@ -66,9 +67,9 @@ function Contact() {
                       
                       rounded-full  flex justify-center items-center"
               >
-                <i className="fa-regular fa-envelope text-2xl text-white dark:text-emerald-700"></i>
+                <MdOutlineMail className="fa-regular fa-envelope text-xl text-white dark:text-emerald-700"/>
               </a>
-              <p className="text-blue-700 dark:text-emerald-500 md:text-xl font-semibold">
+              <p className="text-blue-700 dark:text-yellow-200 md:text-xl font-semibold">
                 Email
               </p>
               <p className=" dark:text-white md:text-xl font-semibold ">
@@ -85,7 +86,7 @@ function Contact() {
                 <FaPhone className="fa-regular fa-envelope text-xl text-white dark:text-emerald-700" />
               </div>
 
-              <p className="text-blue-700 dark:text-emerald-500 md:text-xl font-semibold">
+              <p className="text-blue-700 dark:text-yellow-200 md:text-xl font-semibold">
                 Phone
               </p>
               <p className=" dark:text-white md:text-xl font-semibold">
@@ -121,7 +122,7 @@ function Contact() {
             <div className="flex justify-center items-center my-6">
               <button
                 type="submit"
-                className="px-6 py-3 bg-blue-700 dark:bg-emerald-700 hover:dark:bg-emerald-800 text-white font-semibold rounded-lg hover:bg-blue-800 transition-all"
+                className="px-6 py-3 bg-blue-700  text-white font-semibold rounded-lg hover:bg-blue-800 transition-all"
               >
                 Submit Form
               </button>

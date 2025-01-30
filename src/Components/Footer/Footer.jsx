@@ -1,13 +1,13 @@
 function Footer() {
   return (
-    <div className="w-full bg-slate-200 dark:bg-slate-900 overflow-auto">
+    <div className="w-full bg-slate-200 dark:bg-[#1a2331] overflow-auto pt-4">
       <div className="footerUp text-center w-4/5 mx-auto m-2 py-4   border-b-[1px] border-slate-500">
         <p className="uppercase  text-3xl font-semibold dark:text-white ">
           FIND ME ON
         </p>
         <p className="my-4 dark:text-white ">
           Feel free to{" "}
-          <span className="text-blue-700 dark:text-emerald-500 font-semibold">
+          <span className="text-blue-700 dark:text-yellow-200 font-semibold">
             connect
           </span>{" "}
           with me
@@ -55,7 +55,7 @@ function Footer() {
           <a
             href="https://www.linkedin.com/in/osama-shehta/"
             target="_blank"
-            className="text-blue-700 dark:text-emerald-500 font-bold"
+            className="text-blue-700 dark:text-yellow-200 font-bold"
           >
             Osama Shehta
           </a>
