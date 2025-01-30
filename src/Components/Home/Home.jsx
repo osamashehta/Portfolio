@@ -32,14 +32,14 @@ function Home() {
               Hello👋
             </p>
             <p className="text-xl dark:text-white my-1 font-bold font-mono mb-5">
-              I'M{" "}
+              I'm{" "}
               <span className="text-xl md:text-3xl font-bold text-blue-700 dark:text-yellow-200 ">
                 {" "}
                 Osama Shehta
               </span>
             </p>
             <span className="text-xl dark:text-white font-bold font-mono block h-20 ">
-              I'M{" "}
+              I'm a{" "}
               <span
                 ref={el}
                 className="text-xl md:text-3xl  text-blue-700 dark:text-yellow-200"
