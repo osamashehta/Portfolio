@@ -31,7 +31,7 @@ function Carousel() {
                 : fondedProject.tools.map((e, index) => (
                     <span
                       key={index}
-                      className="bg-blue-700 px-3 py-2 rounded-full text-sm hover:bg-blue-800"
+                      className="bg-blue-700 px-[6px] py-[2px] md:px-3 md:py-1 rounded-full text-sm hover:bg-blue-800"
                     >
                       {e}
                     </span>
@@ -41,22 +41,20 @@ function Carousel() {
 
           <div className="w-full md:w-1/2 p-4 flex flex-col justify-between">
             <div>
-              <h3 className="text-2xl font-bold border-b-2 pb-2 mb-4 uppercase border-yellow-200">
-                Description
-              </h3>
-              <p className="text-left font-mono mb-4">
-                {fondedProject.description}
-              </p>
-              <h3 className="text-2xl font-bold border-b-2 pb-2 mb-4 border-yellow-200">
+            <h3 className="text-xl font-medium md:font-bold border-b-2 pb-2 mb-4 border-yellow-200 ">
                 {fondedProject.title}
               </h3>
+              <p className="text-left font-mono text-sm md:text-base mb-4">
+                {fondedProject.description}
+              </p>
+             
             </div>
 
-            <div className="info flex justify-center space-x-8">
+            <div className="info flex justify-center space-x-8 text-sm md:text-base">
               <a
                 href={fondedProject.demoURL}
                 target="_blank"
-                className="text-yellow-200 hover:text-white flex items-center"
+                className="text-yellow-200 hover:text-white flex items-center "
               >
                 <FaLink className="mr-2" />
                 Live Demo
