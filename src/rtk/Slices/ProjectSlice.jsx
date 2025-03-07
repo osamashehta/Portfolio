@@ -131,7 +131,7 @@ const projects = [
     category: "react",
     description:
       "A fully functional e-commerce web application built with React, Tailwind CSS, React Router Dom, Axios, Tanstack query, Formik, Yup, and various libraries to provide a seamless shopping experience. The app includes user authentication, product browsing, filtering, cart management, order placement, and checkout functionality.",
-    demoURL: "https://cartify-ebon.vercel.app/",
+    demoURL: "https://cartify-delta.vercel.app/",
     githubURL: "https://github.com/osamashehta/Cartify",
     img: cartifyImg,
     tools: ["React", "Tailwind CSS", "Context Api","React-Router-Dom","Axios","TanStack Query","Formik","Yup","NextUi"],
