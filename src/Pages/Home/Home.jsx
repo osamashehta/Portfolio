@@ -1,14 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 import image from "../../assets/download.png";
 import Typed from "typed.js";
-import DownloadCV from "../DownloadCV/DownloadCV";
-import SEO from "../SEO/SEO";
+import DownloadCV from "../../Components/DownloadCV/DownloadCV";
+import SEO from "../../Components/SEO/SEO";
 
 function Home() {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["FrontEnd Developer", "React Developer"],
+      strings: ["FrontEnd Developer", "React & Next Developer"],
 
       startDelay: 300,
       typeSpeed: 100,

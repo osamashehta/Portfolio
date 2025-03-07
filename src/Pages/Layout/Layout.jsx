@@ -1,6 +1,6 @@
-import ArrowUp from "../ArrowUp/ArrowUp";
-import Footer from "../Footer/Footer";
-import Nav from "../Header/Nav";
+import ArrowUp from "../../Components/ArrowUp/ArrowUp";
+import Footer from "../../Components/Footer/Footer";
+import Nav from "../../Components/Header/Nav";
 import { Outlet } from "react-router-dom";
 
 function Layout() {
