@@ -18,21 +18,21 @@ function About() {
           <div className="w-full md:w-7/12 text-xl tracking-wider dark:text-white font-serif leading-10">
             <div>
               <p>
-                - Hello Everyone,{" "}
+                Hello everyone!I’m{" "}
                 <span className="text-2xl font-semibold text-blue-700 dark:text-yellow-200 ">
-                  I am Osama Shehta
+                  Osama Shehta {""}
                 </span>{" "}
                 from Egypt.
               </p>
               <p>
-                - I Frontend Developer at{" "}
+                I am a Frontend Developer at{" "}
                 <span className="text-2xl font-semibold text-blue-700 dark:text-yellow-200 ">
                   Almasader Alraqmia
                 </span>
               </p>
               <p>
-                - I graduated with a degree in Computer and Systems Engineering
-                2024.
+                I graduated in 2024 with a degree in Computer and Systems
+                Engineering.
               </p>
             </div>
           </div>

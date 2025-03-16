@@ -61,13 +61,13 @@ function Nav() {
         </div>
         <div className="link w-2/3 justify-items-end ">
           <ul className=" space-x-10 hidden md:flex">
-            <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg">
+            {/* <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg">
               <NavLink to={""} className="uppercase">
                 home
               </NavLink>
-            </li>
+            </li> */}
             <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg">
-              <NavLink to={"about"} className="uppercase">
+              <NavLink to={"/"} className="uppercase">
                 about
               </NavLink>
             </li>
@@ -161,13 +161,13 @@ function Nav() {
         {isOpen ? (
           <div className="link-mobile w-full text-center my-2  md:hidden ">
             <ul className="md:w-full">
-              <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-slate-700   hover:text-white px-2 py-1 rounded-lg ">
+              {/* <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-slate-700   hover:text-white px-2 py-1 rounded-lg ">
                 <NavLink to={""} className="uppercase">
                   home
                 </NavLink>
-              </li>
+              </li> */}
               <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg ">
-                <NavLink to={"about"} className="uppercase">
+                <NavLink to={"/"} className="uppercase">
                   about
                 </NavLink>
               </li>
