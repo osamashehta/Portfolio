@@ -61,13 +61,13 @@ const projects = [
   {
     id: 4,
     title: "Login System",
-    category: "javascript",
+    category: "react",
     description:
       "Designed and implemented a user-friendly login system with a Login Page and Sign-Up Page, featuring robust email and password validation. The system ensured intuitive navigation and smooth functionality across all devices, validating user credentials and redirecting successfully logged-in users to the home page.",
-    demoURL: "https://osamashehta.github.io/Login-System/",
-    githubURL: "https://github.com/osamashehta/Login-System",
+    demoURL: "https://react-hook-form-rho-six.vercel.app/",
+    githubURL: "https://github.com/osamashehta/React-Hook-Form",
     img: loginImg,
-    tools: ["HTML", "CSS", "Bootstrap", "Javascript"],
+    tools: ["React","TypeScript", "Tailwind CSS", "React-Hook-Form","Zod"],
   },
   {
     id: 5,
