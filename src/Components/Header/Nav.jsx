@@ -46,11 +46,8 @@ function Nav() {
       <nav
         className={`w-full   fixed top-0 z-20 px-6 py-2  flex flex-wrap md:flex-nowrap  items-center  font-bold
             transition-all duration-[450ms]
-      ${
-        isScrolled
-          ? "bg-blue-600  text-white  dark:bg-[#334155]"
-          : "text-blue-600 dark:text-white  dark:bg-slate-800 bg-white py-2"
-      }
+            text-slate-950 bg-white dark:text-white dark:bg-slate-950
+      
 
        `}
       >
@@ -61,26 +58,17 @@ function Nav() {
         </div>
         <div className="link w-2/3 justify-items-end ">
           <ul className=" space-x-10 hidden md:flex">
-            {/* <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg">
-              <NavLink to={""} className="uppercase">
-                home
-              </NavLink>
-            </li> */}
-            <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg">
+            <li className="flex  items-center hover:dark:bg-white hover:dark:text-slate-950  hover:bg-slate-950 hover:text-white px-2 py-1 rounded-lg transition-all duration-[400ms]">
               <NavLink to={"/"} className="uppercase">
                 about
               </NavLink>
             </li>
-            <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg">
+            <li className="flex  items-center hover:dark:bg-white hover:dark:text-slate-950  hover:bg-slate-950 hover:text-white px-2 py-1 rounded-lg transition-all duration-[400ms]">
               <NavLink to={"portfolio"} className="uppercase">
                 Projects
               </NavLink>
             </li>
-            <li className="flex  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg">
-              <NavLink to={"contact"} className="uppercase">
-                contact
-              </NavLink>
-            </li>
+
             <li className="px-2 py-1 flex  items-center">
               <label className="inline-flex items-center cursor-pointer">
                 <input
@@ -161,11 +149,6 @@ function Nav() {
         {isOpen ? (
           <div className="link-mobile w-full text-center my-2  md:hidden ">
             <ul className="md:w-full">
-              {/* <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-slate-700   hover:text-white px-2 py-1 rounded-lg ">
-                <NavLink to={""} className="uppercase">
-                  home
-                </NavLink>
-              </li> */}
               <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg ">
                 <NavLink to={"/"} className="uppercase">
                   about

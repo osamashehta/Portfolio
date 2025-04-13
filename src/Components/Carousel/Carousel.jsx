@@ -16,10 +16,10 @@ function Carousel() {
         onClick={(e) => dispatch(handleClose(e))}
       >
         <div
-          className="w-[90%] max-w-4xl h-[90%] m-auto flex flex-col md:flex-row bg-slate-900 text-white border-2   border-yellow-200 rounded-xl relative "
+          className="w-[90%] max-w-4xl h-[90%] m-auto flex flex-col md:flex-row bg-slate-900 text-white border-2   border-white rounded-xl relative "
           onClick={(e) => e.stopPropagation()}
         >
-          <div className="w-full md:w-1/2 p-4 flex flex-col items-center border-b-2 md:border-b-0 md:border-r-2 border-yellow-200 ">
+          <div className="w-full md:w-1/2 p-4 flex flex-col items-center border-b-2 md:border-b-0 md:border-r-2 border-white ">
             <img
               src={fondedProject.img}
               alt=""
@@ -41,7 +41,7 @@ function Carousel() {
 
           <div className="w-full md:w-1/2 p-4 flex flex-col justify-between">
             <div>
-            <h3 className="text-xl font-medium md:font-bold border-b-2 pb-2 mb-4 border-yellow-200 ">
+            <h3 className="text-xl font-medium md:font-bold border-b-2 pb-2 mb-4 border-white ">
                 {fondedProject.title}
               </h3>
               <p className="text-left font-mono text-sm md:text-base mb-4">
@@ -54,7 +54,7 @@ function Carousel() {
               <a
                 href={fondedProject.demoURL}
                 target="_blank"
-                className="text-yellow-200 hover:text-white flex items-center "
+                className="text-white  flex items-center "
               >
                 <FaLink className="mr-2" />
                 Live Demo
@@ -62,7 +62,7 @@ function Carousel() {
               <a
                 href={fondedProject.githubURL}
                 target="_blank"
-                className="text-yellow-200 hover:text-white flex items-center"
+                className="text-white  flex items-center"
               >
                 <FaGithub className="mr-2" />
                 Code

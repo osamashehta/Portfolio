@@ -13,7 +13,7 @@ function Portfolio() {
 
   return (
     <>
-      <div className="w-full bg-white dark:bg-slate-800 py-12">
+      <div className="w-full bg-white dark:bg-slate-950 py-12">
         <div className="w-full flex justify-center">
           <div className="w-fit mb-8 dark:text-white text-3xl font-bold border-b-4 border-dashed border-blue-700 dark:border-yellow-200 py-2">
             <span className="text-blue-700 dark:text-yellow-200">My</span>{" "}
@@ -23,31 +23,31 @@ function Portfolio() {
         <div className="w-4/5 mx-auto flex ">
           <div className="taps flex flex-wrap w-full justify-center items-center gap-4 my-4">
             <button
-              className="py-2 px-4 bg-blue-700  text-white text-lg rounded-lg hover:shadow-md hover:shadow-blue-400 "
+              className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[18px] font-medium rounded-lg hover:shadow-md hover:shadow-blue-400 "
               onClick={() => dispatch(handleCategory("all"))}
             >
               All Projects
             </button>
-            <button
-              className="py-2 px-4 bg-blue-700  text-white text-lg rounded-lg hover:shadow-md hover:shadow-blue-400 "
+            {/* <button
+              className="py-2 px-4 bg-blue-700  text-white dark:bg-white dark:text-slate-950 text-[18px] font-medium rounded-lg hover:shadow-md hover:shadow-blue-400 "
               onClick={() => dispatch(handleCategory("html"))}
             >
               HTML & CSS
-            </button>
-            <button
-              className="py-2 px-4 bg-blue-700  text-white text-lg rounded-lg hover:shadow-md hover:shadow-blue-400 "
+            </button> */}
+            {/* <button
+              className="py-2 px-4 bg-blue-700  text-white dark:bg-white dark:text-slate-950 text-[18px] font-medium rounded-lg hover:shadow-md hover:shadow-blue-400 "
               onClick={() => dispatch(handleCategory("bootstrap"))}
             >
               Bootstrap
-            </button>
+            </button> */}
             <button
-              className="py-2 px-4 bg-blue-700  text-white text-lg rounded-lg hover:shadow-md hover:shadow-blue-400 "
+              className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[18px] font-medium rounded-lg hover:shadow-md hover:shadow-blue-400 "
               onClick={() => dispatch(handleCategory("javascript"))}
             >
               JavaScript
             </button>
             <button
-              className="py-2 px-4 bg-blue-700  text-white text-lg rounded-lg hover:shadow-md hover:shadow-blue-400 "
+              className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[18px] font-medium rounded-lg hover:shadow-md hover:shadow-blue-400 "
               onClick={() => dispatch(handleCategory("react"))}
             >
               React

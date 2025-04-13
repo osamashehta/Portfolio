@@ -11,6 +11,7 @@ import gameImg from "../../assets/game.png";
 import quickImg from "../../assets/quick.jpg";
 import portfolioImg from "../../assets/portfolio.png";
 import cartifyImg from "../../assets/cartify.jpg";
+import dashboardImg from "../../assets/dashboard.png";
 
 const projects = [
   {
@@ -22,7 +23,7 @@ const projects = [
     demoURL: "https://osamashehta.github.io/Meal/",
     githubURL: "https://github.com/osamashehta/Meal",
     img: mealImg,
-    tools: ["HTML", "CSS"],
+    tools: "",
   },
 
   {
@@ -34,7 +35,7 @@ const projects = [
     demoURL: "https://osamashehta.github.io/DevFolio/",
     githubURL: "https://github.com/osamashehta/DevFolio",
     img: devfolioImg,
-    tools: ["HTML", "CSS", "Bootstrap"],
+    tools: "",
   },
   {
     id: 2,
@@ -45,7 +46,7 @@ const projects = [
     demoURL: "https://osamashehta.github.io/Ninja/",
     githubURL: "https://github.com/osamashehta/Ninja",
     img: ninjaImg,
-    tools: ["HTML", "CSS", "Bootstrap"],
+    tools: "",
   },
   {
     id: 3,
@@ -56,7 +57,7 @@ const projects = [
     demoURL: "https://osamashehta.github.io/Geek/",
     githubURL: "https://github.com/osamashehta/Geek",
     img: geekImg,
-    tools: ["HTML", "CSS", "Bootstrap"],
+    tools: "",
   },
   {
     id: 4,
@@ -135,6 +136,17 @@ const projects = [
     githubURL: "https://github.com/osamashehta/Cartify",
     img: cartifyImg,
     tools: ["React", "Tailwind CSS", "Context Api","React-Router-Dom","Axios","TanStack Query","Formik","Yup","NextUi"],
+  },
+  {
+    id: 11,
+    title: "Course and Trainer Management",
+    category: "react",
+    description:
+      "Course and Trainer Management Application Dashboard A modern web application designed for managing educational courses with full CRUD functionality. Built using React and React Router, the dashboard allows admins to create, view, update, and delete course details in a clean, responsive UI.",
+    demoURL: "https://dashboard-trainer-management.vercel.app/",
+    githubURL: "https://github.com/osamashehta/Dashboard-Trainer-Management",
+    img: dashboardImg,
+    tools: ["React","TypeScript", "Tailwind CSS","React-Router-Dom","React-Hook-Form","Zod"],
   },
 ];
 

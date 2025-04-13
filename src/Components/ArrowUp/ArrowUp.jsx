@@ -11,7 +11,7 @@ function ArrowUp() {
     <button
       onClick={handleScrollToTop}
       aria-label="Scroll to top"
-      className="fixed bottom-[5%] right-[5%] bg-blue-700 w-8 h-8 text-white  rounded-full flex justify-center items-center"
+      className="fixed bottom-[5%] right-[5%] bg-slate-950 w-8 h-8 text-white dark:bg-white dark:text-slate-950  rounded-full flex justify-center items-center"
     >
       <FaArrowUp />
     </button>
