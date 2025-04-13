@@ -149,21 +149,17 @@ function Nav() {
         {isOpen ? (
           <div className="link-mobile w-full text-center my-2  md:hidden ">
             <ul className="md:w-full">
-              <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg ">
-                <NavLink to={"/"} className="uppercase">
+              <li className="flex justify-center  items-center   ">
+                <NavLink to={"/"} className="uppercase hover:dark:bg-white hover:dark:text-slate-950  hover:bg-slate-950 hover:text-white px-2 py-1 rounded-lg">
                   about
                 </NavLink>
               </li>
-              <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg ">
-                <NavLink to={"portfolio"} className="uppercase">
+              <li className="flex justify-center  items-center  ">
+                <NavLink to={"portfolio"} className="uppercase hover:dark:bg-white hover:dark:text-slate-950  hover:bg-slate-950 hover:text-white px-2 py-1 rounded-lg">
                   Projects
                 </NavLink>
               </li>
-              <li className="flex justify-center  items-center hover:dark:bg-blue-700  hover:bg-slate-700 hover:text-white px-2 py-1 rounded-lg ">
-                <NavLink to={"contact"} className="uppercase">
-                  contact
-                </NavLink>
-              </li>
+             
             </ul>
           </div>
         ) : (
