@@ -52,7 +52,7 @@ const AboutHeader = () => {
           </h3>
           <div className="flex flex-col gap-4">
             <div>
-              <Link
+              <a
                 href="https://github.com/osamashehta/Dashboard-Trainer-Management"
                 target="_blank"
               >
@@ -60,7 +60,7 @@ const AboutHeader = () => {
                   Trainer Management Application Dashboard{" "}
                   <FaExternalLinkAlt className="text-blue-700 dark:text-yellow-200" />
                 </h3>
-              </Link>
+              </a>
               <p className="text-[18px] italic">
                 A modern web application designed for managing educational
                 courses with full CRUD functionality. Built using React and
@@ -70,7 +70,7 @@ const AboutHeader = () => {
             </div>
 
             <div>
-              <Link
+              <a
                 href="https://github.com/osamashehta/Cartify"
                 target="_blank"
               >
@@ -78,7 +78,7 @@ const AboutHeader = () => {
                   Cartify{" "}
                   <FaExternalLinkAlt className="text-blue-700 dark:text-yellow-200" />
                 </h3>
-              </Link>
+              </a>
               <p className="text-[18px] italic">
                 A fully functional e-commerce web application built with React,
                 Tailwind CSS, React Router Dom, Axios, Tanstack query, Formik,
