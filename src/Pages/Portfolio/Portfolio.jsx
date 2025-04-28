@@ -52,6 +52,12 @@ function Portfolio() {
             >
               React
             </button>
+            <button
+              className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[18px] font-medium rounded-lg hover:shadow-md hover:shadow-blue-400 "
+              onClick={() => dispatch(handleCategory("next"))}
+            >
+              Next.js
+            </button>
           </div>
         </div>
         <div className="projects w-4/5 mx-auto flex flex-wrap justify-center my-2 gap-6">

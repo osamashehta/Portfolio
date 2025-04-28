@@ -12,6 +12,7 @@ import quickImg from "../../assets/quick.jpg";
 import portfolioImg from "../../assets/portfolio.png";
 import cartifyImg from "../../assets/cartify.jpg";
 import dashboardImg from "../../assets/dashboard.png";
+import linkImg from "../../assets/link.png";
 
 const projects = [
   {
@@ -68,7 +69,7 @@ const projects = [
     demoURL: "https://react-hook-form-rho-six.vercel.app/",
     githubURL: "https://github.com/osamashehta/React-Hook-Form",
     img: loginImg,
-    tools: ["React","TypeScript", "Tailwind CSS", "React-Hook-Form","Zod"],
+    tools: ["React", "TypeScript", "Tailwind CSS", "React-Hook-Form", "Zod"],
   },
   {
     id: 5,
@@ -135,7 +136,17 @@ const projects = [
     demoURL: "https://cartify-delta.vercel.app/",
     githubURL: "https://github.com/osamashehta/Cartify",
     img: cartifyImg,
-    tools: ["React", "Tailwind CSS", "Context Api","React-Router-Dom","Axios","TanStack Query","Formik","Yup","NextUi"],
+    tools: [
+      "React",
+      "Tailwind CSS",
+      "Context Api",
+      "React-Router-Dom",
+      "Axios",
+      "TanStack Query",
+      "Formik",
+      "Yup",
+      "NextUi",
+    ],
   },
   {
     id: 11,
@@ -146,7 +157,32 @@ const projects = [
     demoURL: "https://dashboard-trainer-management.vercel.app/",
     githubURL: "https://github.com/osamashehta/Dashboard-Trainer-Management",
     img: dashboardImg,
-    tools: ["React","TypeScript", "Tailwind CSS","React-Router-Dom","React-Hook-Form","Zod"],
+    tools: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "React-Router-Dom",
+      "React-Hook-Form",
+      "Zod",
+    ],
+  },
+  {
+    id: 12,
+    title: "Linkedin Clone",
+    category: "next",
+    description:
+      "A full-featured social networking web application built using Next.js 15, supporting user authentication, post creation, commenting, reporting, and dynamic content updates — designed for speed, responsiveness, and security.",
+    demoURL: "https://link-up-fawn-pi.vercel.app/",
+    githubURL: "https://github.com/osamashehta/Link",
+    img: linkImg,
+    tools: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "React-Hook-Form",
+      "Zod",
+    ],
   },
 ];
 

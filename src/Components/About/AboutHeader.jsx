@@ -53,19 +53,16 @@ const AboutHeader = () => {
           <div className="flex flex-col gap-4">
             <div>
               <a
-                href="https://github.com/osamashehta/Dashboard-Trainer-Management"
+                href="https://github.com/osamashehta/Link"
                 target="_blank"
               >
                 <h3 className="dark:text-white text-2xl font-bold flex items-center gap-2 ">
-                  Trainer Management Application Dashboard{" "}
+                  Linkedin Clone{" "}
                   <FaExternalLinkAlt className="text-blue-700 dark:text-yellow-200" />
                 </h3>
               </a>
               <p className="text-[18px] italic">
-                A modern web application designed for managing educational
-                courses with full CRUD functionality. Built using React and
-                React Router, the dashboard allows admins to create, view,
-                update, and delete course details in a clean, responsive UI.
+              A full-featured social networking web application built using Next.js 15, supporting user authentication, post creation, commenting, reporting, and dynamic content updates — designed for speed, responsiveness, and security.
               </p>
             </div>
 
