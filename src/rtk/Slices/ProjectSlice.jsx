@@ -178,6 +178,8 @@ const projects = [
     tools: [
       "Next.js",
       "TypeScript",
+      "Axios",
+      "Tanstack Query",
       "Tailwind CSS",
       "shadcn/ui",
       "React-Hook-Form",
