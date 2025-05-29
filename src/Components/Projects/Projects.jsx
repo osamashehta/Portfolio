@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { handleOpen } from "../../rtk/Slices/LayerSlice";
 import { handleCurrentIndex } from "../../rtk/Slices/ProjectSlice";
 import SEO from "../SEO/SEO";
+import { Link } from "react-router-dom";
 
 function Projects({ project }) {
   const dispatch = useDispatch();
@@ -21,7 +22,18 @@ function Projects({ project }) {
         <p className="line-clamp-2 text-left font-mono dark:text-white w-full">
           {project.description}
         </p>
-        <button
+        <Link
+          to={`/portfolio/${project.id}`}
+          aria-label="See More"
+          className="text-slate-950 dark:text-white text-xl font-semibold"
+          // onClick={() => {
+          //   dispatch(handleCurrentIndex(project.id));
+          //   dispatch(handleOpen());
+          // }}
+        >
+          See More...
+        </Link>
+        {/* <button
           className="text-slate-950 dark:text-white text-xl font-semibold"
           onClick={() => {
             dispatch(handleCurrentIndex(project.id));
@@ -29,7 +41,7 @@ function Projects({ project }) {
           }}
         >
           See More...
-        </button>
+        </button> */}
         <div className="info flex justify-center w-full space-x-4 ">
           <a
             href={project.demoURL}

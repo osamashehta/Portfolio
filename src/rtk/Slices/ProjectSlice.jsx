@@ -24,7 +24,7 @@ const projects = [
     demoURL: "https://osamashehta.github.io/Meal/",
     githubURL: "https://github.com/osamashehta/Meal",
     img: mealImg,
-    tools: "",
+    tools: ["html", "css"],
   },
 
   {
@@ -36,7 +36,7 @@ const projects = [
     demoURL: "https://osamashehta.github.io/DevFolio/",
     githubURL: "https://github.com/osamashehta/DevFolio",
     img: devfolioImg,
-    tools: "",
+    tools: ["html", "css", "bootstrap"],
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ const projects = [
     demoURL: "https://osamashehta.github.io/Ninja/",
     githubURL: "https://github.com/osamashehta/Ninja",
     img: ninjaImg,
-    tools: "",
+    tools: ["html", "css", "bootstrap"],
   },
   {
     id: 3,
@@ -58,7 +58,7 @@ const projects = [
     demoURL: "https://osamashehta.github.io/Geek/",
     githubURL: "https://github.com/osamashehta/Geek",
     img: geekImg,
-    tools: "",
+    tools: ["html, css"],
   },
   {
     id: 4,
