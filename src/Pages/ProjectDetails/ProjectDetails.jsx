@@ -128,12 +128,12 @@ function ProjectDetails() {
         <div className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 pt-3">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-1 sm:space-x-4">
                 <Button
                   onClick={() => navigate("/portfolio")}
                   variant="back"
                   size="sm"
-                  className="flex items-center gap-1 sm:gap-2 text-[12px] md:text-[14px] lg:text-[16px] "
+                  className="flex items-center gap-1 sm:gap-2 text-[10px] md:text-[14px] lg:text-[16px] "
                 >
                   <FaArrowLeft className="w-2 h-2 sm:w-4 sm:h-4" />
                   Back to Portfolio
@@ -143,7 +143,7 @@ function ProjectDetails() {
                     Portfolio
                   </Link>
                   <span className="mx-2">/</span>
-                  <span className="text-gray-900 dark:text-white font-medium text-[12px] md:text-[14px] lg:text-[16px] ">{project.title}</span>
+                  <span className="text-gray-900 dark:text-white sm:font-medium text-[12px] md:text-[14px] lg:text-[16px] ">{project.title}</span>
                 </nav>
               </div>
             </div>
