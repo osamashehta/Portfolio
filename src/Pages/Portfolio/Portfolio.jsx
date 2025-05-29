@@ -23,37 +23,37 @@ function Portfolio() {
         <div className="w-4/5 mx-auto flex ">
           <div className="taps flex flex-wrap w-full justify-center items-center gap-4 my-4">
             <button
-              className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[18px] font-medium rounded-lg hover:shadow-md hover:shadow-blue-400 "
+              className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[12px] md:text-[14px] lg:text-[16px] rounded-[25px] hover:shadow-md hover:shadow-blue-400 "
               onClick={() => dispatch(handleCategory("all"))}
             >
               All Projects
             </button>
             {/* <button
-              className="py-2 px-4 bg-blue-700  text-white dark:bg-white dark:text-slate-950 text-[18px] font-medium rounded-lg hover:shadow-md hover:shadow-blue-400 "
+              className="py-2 px-4 bg-blue-700  text-white dark:bg-white dark:text-slate-950 text-[12px] md:text-[14px] lg:text-[16px] rounded-[25px] hover:shadow-md hover:shadow-blue-400 "
               onClick={() => dispatch(handleCategory("html"))}
             >
               HTML & CSS
             </button> */}
             {/* <button
-              className="py-2 px-4 bg-blue-700  text-white dark:bg-white dark:text-slate-950 text-[18px] font-medium rounded-lg hover:shadow-md hover:shadow-blue-400 "
+              className="py-2 px-4 bg-blue-700  text-white dark:bg-white dark:text-slate-950 text-[12px] md:text-[14px] lg:text-[16px] rounded-[25px] hover:shadow-md hover:shadow-blue-400 "
               onClick={() => dispatch(handleCategory("bootstrap"))}
             >
               Bootstrap
             </button> */}
             <button
-              className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[18px] font-medium rounded-lg hover:shadow-md hover:shadow-blue-400 "
+              className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[12px] md:text-[14px] lg:text-[16px] rounded-[25px] hover:shadow-md hover:shadow-blue-400 "
               onClick={() => dispatch(handleCategory("javascript"))}
             >
               JavaScript
             </button>
             <button
-              className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[18px] font-medium rounded-lg hover:shadow-md hover:shadow-blue-400 "
+              className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[12px] md:text-[14px] lg:text-[16px] rounded-[25px] hover:shadow-md hover:shadow-blue-400 "
               onClick={() => dispatch(handleCategory("react"))}
             >
               React
             </button>
             <button
-              className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[18px] font-medium rounded-lg hover:shadow-md hover:shadow-blue-400 "
+              className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[12px] md:text-[14px] lg:text-[16px] rounded-[25px] hover:shadow-md hover:shadow-blue-400 "
               onClick={() => dispatch(handleCategory("next"))}
             >
               Next.js
