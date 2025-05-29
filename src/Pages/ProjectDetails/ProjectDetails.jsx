@@ -133,17 +133,17 @@ function ProjectDetails() {
                   onClick={() => navigate("/portfolio")}
                   variant="back"
                   size="sm"
-                  className="flex items-center gap-2"
+                  className="flex items-center gap-1 sm:gap-2 text-[12px] md:text-[14px] lg:text-[16px] "
                 >
-                  <FaArrowLeft className="w-4 h-4" />
+                  <FaArrowLeft className="w-2 h-2 sm:w-4 sm:h-4" />
                   Back to Portfolio
                 </Button>
                 <nav className="text-sm text-gray-500 dark:text-gray-400">
-                  <Link to="/portfolio" className="hover:text-blue-600 dark:hover:text-blue-400">
+                  <Link to="/portfolio" className="hover:text-blue-600 dark:hover:text-blue-400 text-[12px] md:text-[14px] lg:text-[16px]">
                     Portfolio
                   </Link>
                   <span className="mx-2">/</span>
-                  <span className="text-gray-900 dark:text-white font-medium">{project.title}</span>
+                  <span className="text-gray-900 dark:text-white font-medium text-[12px] md:text-[14px] lg:text-[16px] ">{project.title}</span>
                 </nav>
               </div>
             </div>
@@ -164,7 +164,7 @@ function ProjectDetails() {
                   </div>
 
                   {/* Action Buttons */}
-                  <div className="flex flex-wrap gap-2 md:gap-4">
+                  <div className="flex  flex-wrap gap-2 md:gap-4">
                     {project.demoURL && (
                       <Button
                         onClick={() => window.open(project.demoURL, "_blank")}
@@ -173,7 +173,7 @@ function ProjectDetails() {
                       >
                         <FaEye className="w-3 h-3 md:w-4 md:h-4" />
                         Live Demo
-                        <FaExternalLinkAlt className="w-3 h-3" />
+                        <FaExternalLinkAlt className="w-3 h-3 hidden sm:block" />
                       </Button>
                     )}
 
@@ -185,7 +185,7 @@ function ProjectDetails() {
                       >
                         <FaGithub className="w-3 h-3 md:w-4 md:h-4" />
                         View Code
-                        <FaExternalLinkAlt className="w-3 h-3" />
+                        <FaExternalLinkAlt className="w-3 h-3 hidden sm:block" />
                       </Button>
                     )}
                   </div>
