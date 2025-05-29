@@ -230,7 +230,7 @@ const AboutHeader = () => {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 font-medium">
-            Frontend Developer from Egypt 🇪🇬
+            Frontend Developer from Egypt.
           </p>
         </div>
 
