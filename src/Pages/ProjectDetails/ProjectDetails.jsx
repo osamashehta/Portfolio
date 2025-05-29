@@ -164,12 +164,13 @@ function ProjectDetails() {
                   </div>
 
                   {/* Action Buttons */}
-                  <div className="flex  flex-wrap gap-2 md:gap-4">
+                  <div className="flex   gap-2 md:gap-4">
                     {project.demoURL && (
                       <Button
                         onClick={() => window.open(project.demoURL, "_blank")}
                         variant="default"
-                        className="flex items-center gap-2 text-[12px] md:text-[14px] lg:text-[16px]"
+                        
+                        className="flex items-center gap-2 text-[12px] md:text-[14px] lg:text-[16px] !px-2 !py-1 md:!px-6 md:!py-3"
                       >
                         <FaEye className="w-3 h-3 md:w-4 md:h-4" />
                         Live Demo
@@ -181,7 +182,9 @@ function ProjectDetails() {
                       <Button
                         onClick={() => window.open(project.githubURL, "_blank")}
                         variant="github"
-                        className="flex items-center gap-2 text-[12px] md:text-[14px] lg:text-[16px]"
+                        
+
+                        className="flex items-center gap-2 text-[12px] md:text-[14px] lg:text-[16px] !px-2 !py-1 md:!px-6 md:!py-3"
                       >
                         <FaGithub className="w-3 h-3 md:w-4 md:h-4" />
                         View Code
