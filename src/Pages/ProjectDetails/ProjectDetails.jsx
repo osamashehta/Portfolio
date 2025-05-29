@@ -159,19 +159,19 @@ function ProjectDetails() {
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
                 <div className="space-y-6">
                   <div>
-                    <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">{project.title}</h1>
+                    <h1 className="text-[16px] md:text-[24px] font-bold text-gray-900 dark:text-white mb-4">{project.title}</h1>
                     <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">{project.description}</p>
                   </div>
 
                   {/* Action Buttons */}
-                  <div className="flex flex-wrap gap-4">
+                  <div className="flex flex-wrap gap-2 md:gap-4">
                     {project.demoURL && (
                       <Button
                         onClick={() => window.open(project.demoURL, "_blank")}
                         variant="default"
-                        className="flex items-center gap-2"
+                        className="flex items-center gap-2 text-[12px] md:text-[14px] lg:text-[16px]"
                       >
-                        <FaEye className="w-4 h-4" />
+                        <FaEye className="w-3 h-3 md:w-4 md:h-4" />
                         Live Demo
                         <FaExternalLinkAlt className="w-3 h-3" />
                       </Button>
@@ -181,9 +181,9 @@ function ProjectDetails() {
                       <Button
                         onClick={() => window.open(project.githubURL, "_blank")}
                         variant="github"
-                        className="flex items-center gap-2"
+                        className="flex items-center gap-2 text-[12px] md:text-[14px] lg:text-[16px]"
                       >
-                        <FaGithub className="w-4 h-4" />
+                        <FaGithub className="w-3 h-3 md:w-4 md:h-4" />
                         View Code
                         <FaExternalLinkAlt className="w-3 h-3" />
                       </Button>
