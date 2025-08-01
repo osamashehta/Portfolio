@@ -13,18 +13,23 @@ import { IoLogoJavascript } from "react-icons/io";
 import {
   SiAdobexd,
   SiAxios,
+  SiFirebase,
   SiFormik,
   SiGitlab,
+  SiI18Next,
   SiJquery,
   SiPostman,
+  SiPusher,
   SiReacthookform,
   SiReactquery,
   SiReactrouter,
   SiRedux,
   SiSass,
+  SiShadcnui,
   SiTypescript,
   SiZod,
 } from "react-icons/si";
+import { TbBrandFramerMotion } from "react-icons/tb";
 
 function SkillsContainer() {
   const skills = [
@@ -142,6 +147,31 @@ function SkillsContainer() {
       id: 24,
       brand: <FaGithub />,
       brandName: "Github",
+    },
+    {
+      id: 25,
+      brand: <SiFirebase />,
+      brandName: "Firebase",
+    },
+    {
+      id: 26,
+      brand: <TbBrandFramerMotion />,
+      brandName: "Framer Motion",
+    },
+    {
+      id: 27,
+      brand: <SiPusher />,
+      brandName: "Pusher",
+    },
+    {
+      id: 28,
+      brand: <SiShadcnui />,
+      brandName: "Shadcn UI",
+    },
+    {
+      id: 29,
+      brand: <SiI18Next />,
+      brandName: "i18next",
     },
   ];
   return (
