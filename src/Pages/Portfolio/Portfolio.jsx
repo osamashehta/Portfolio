@@ -28,18 +28,6 @@ function Portfolio() {
             >
               All Projects
             </button>
-            {/* <button
-              className="py-2 px-4 bg-blue-700  text-white dark:bg-white dark:text-slate-950 text-[12px] md:text-[14px] lg:text-[16px] rounded-[25px] hover:shadow-md hover:shadow-blue-400 "
-              onClick={() => dispatch(handleCategory("html"))}
-            >
-              HTML & CSS
-            </button> */}
-            {/* <button
-              className="py-2 px-4 bg-blue-700  text-white dark:bg-white dark:text-slate-950 text-[12px] md:text-[14px] lg:text-[16px] rounded-[25px] hover:shadow-md hover:shadow-blue-400 "
-              onClick={() => dispatch(handleCategory("bootstrap"))}
-            >
-              Bootstrap
-            </button> */}
             <button
               className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[12px] md:text-[14px] lg:text-[16px] rounded-[25px] hover:shadow-md hover:shadow-blue-400 "
               onClick={() => dispatch(handleCategory("javascript"))}

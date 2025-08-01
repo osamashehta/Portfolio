@@ -1,14 +1,9 @@
 import { FaGithub, FaLink } from "react-icons/fa";
 import Carousel from "../Carousel/Carousel";
-import { useDispatch } from "react-redux";
-// import { handleOpen } from "../../rtk/Slices/LayerSlice";
-// import { handleCurrentIndex } from "../../rtk/Slices/ProjectSlice";
 import SEO from "../SEO/SEO";
 import { Link } from "react-router-dom";
 
 function Projects({ project }) {
-  // const dispatch = useDispatch();
-
   return (
     <>
       <SEO title={"Projects"} description={"Projects"} />
@@ -16,10 +11,10 @@ function Projects({ project }) {
         <div className="img text-center ">
           <img src={project.img} alt="" className="w-full rounded-xl" />
         </div>
-        <h3 className="dark:text-white  text-xl font-bold border-b-2 border-solid border-slate-950 dark:border-white ">
+        <h3 className="dark:text-white  text-[18px] font-bold border-b-2 border-solid border-slate-950 dark:border-white ">
           {project.title}
         </h3>
-        <p className="line-clamp-2 text-left font-mono dark:text-white w-full">
+        <p className={` ${project.img? "line-clamp-3":"line-clamp-5"}  text-left  dark:text-white w-full`}>
           {project.description}
         </p>
         <Link
@@ -42,22 +37,24 @@ function Projects({ project }) {
         >
           See More...
         </button> */}
-        <div className="info flex justify-center w-full space-x-4 ">
-          <a
-            href={project.demoURL}
-            target="_blank"
-            className="text-slate-950 dark:text-white"
-          >
-            <FaLink />
-          </a>
-          <a
-            href={project.githubURL}
-            target="_blank"
-            className="text-slate-950 dark:text-white"
-          >
-            <FaGithub />
-          </a>
-        </div>
+        {project.demoURL && project.githubURL && (
+          <div className="info flex justify-center w-full space-x-4 ">
+            <a
+              href={project.demoURL}
+              target="_blank"
+              className="text-slate-950 dark:text-white"
+            >
+              <FaLink />
+            </a>
+            <a
+              href={project.githubURL}
+              target="_blank"
+              className="text-slate-950 dark:text-white"
+            >
+              <FaGithub />
+            </a>
+          </div>
+        )}
       </div>
       <Carousel />
     </>
