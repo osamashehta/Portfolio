@@ -197,19 +197,25 @@ const AboutHeader = () => {
 
         <div className="prose prose-lg dark:prose-invert max-w-none">
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-            I specialize in building{" "}
-            <strong>scalable, accessible web applications</strong> that deliver
-            exceptional user experiences. My expertise spans the modern React
-            ecosystem, with a focus on performance optimization and clean
-            architecture.
+            Frontend Developer with proven expertise in building{" "}
+            <strong>scalable, multilingual web applications</strong> using
+            modern React ecosystem technologies. Demonstrated proficiency in
+             <strong> React.js</strong>, <strong>TypeScript</strong>, <strong>Next.js</strong>, and advanced state management solutions (Redux
+            Toolkit, TanStack Query). Specializes in creating high-performance,
+            accessible user interfaces with Tailwind CSS while ensuring seamless
+            API integration and optimal user experience. Experienced in
+            implementing <strong>real-time features</strong> including chat
+            systems using Pusher. Committed to delivering innovative,
+            user-centered solutions in collaborative development environments.
           </p>
         </div>
 
         {/* Quick Stats */}
         <div className="flex flex-wrap gap-4 pt-4">
-          <Badge variant="secondary">10+ Projects Delivered</Badge>
+          <Badge variant="secondary">15+ Projects Delivered</Badge>
           <Badge variant="secondary">React.js Expert</Badge>
           <Badge variant="secondary">Next.js 15 Ready</Badge>
+          <Badge variant="secondary">Real-time Chat</Badge>
           <Badge variant="secondary">TypeScript Advocate</Badge>
         </div>
       </section>
