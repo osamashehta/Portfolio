@@ -1,13 +1,13 @@
 import { FaGithub, FaLink } from "react-icons/fa";
 import Carousel from "../Carousel/Carousel";
 import { useDispatch } from "react-redux";
-import { handleOpen } from "../../rtk/Slices/LayerSlice";
-import { handleCurrentIndex } from "../../rtk/Slices/ProjectSlice";
+// import { handleOpen } from "../../rtk/Slices/LayerSlice";
+// import { handleCurrentIndex } from "../../rtk/Slices/ProjectSlice";
 import SEO from "../SEO/SEO";
 import { Link } from "react-router-dom";
 
 function Projects({ project }) {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
   return (
     <>
@@ -16,7 +16,7 @@ function Projects({ project }) {
         <div className="img text-center ">
           <img src={project.img} alt="" className="w-full rounded-xl" />
         </div>
-        <h3 className="dark:text-white  text-2xl font-bold border-b-2 border-solid border-slate-950 dark:border-white ">
+        <h3 className="dark:text-white  text-xl font-bold border-b-2 border-solid border-slate-950 dark:border-white ">
           {project.title}
         </h3>
         <p className="line-clamp-2 text-left font-mono dark:text-white w-full">
