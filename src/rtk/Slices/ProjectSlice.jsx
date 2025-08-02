@@ -60,17 +60,17 @@ const projects = [
     img: geekImg,
     tools: ["html, css"],
   },
-  {
-    id: 4,
-    title: "Login System",
-    category: "react",
-    description:
-      "Designed and implemented a user-friendly login system with a Login Page and Sign-Up Page, featuring robust email and password validation. The system ensured intuitive navigation and smooth functionality across all devices, validating user credentials and redirecting successfully logged-in users to the home page.",
-    demoURL: "https://react-hook-form-rho-six.vercel.app/",
-    githubURL: "https://github.com/osamashehta/React-Hook-Form",
-    img: loginImg,
-    tools: ["React", "TypeScript", "Tailwind CSS", "React-Hook-Form", "Zod"],
-  },
+  // {
+  //   id: 4,
+  //   title: "Login System",
+  //   category: "react",
+  //   description:
+  //     "Designed and implemented a user-friendly login system with a Login Page and Sign-Up Page, featuring robust email and password validation. The system ensured intuitive navigation and smooth functionality across all devices, validating user credentials and redirecting successfully logged-in users to the home page.",
+  //   demoURL: "https://react-hook-form-rho-six.vercel.app/",
+  //   githubURL: "https://github.com/osamashehta/React-Hook-Form",
+  //   img: loginImg,
+  //   tools: ["React", "TypeScript", "Tailwind CSS", "React-Hook-Form", "Zod"],
+  // },
   {
     id: 5,
     title: "Bookmark (CRUD)",
@@ -148,24 +148,24 @@ const projects = [
       "NextUi",
     ],
   },
-  {
-    id: 11,
-    title: "Course and Trainer Management",
-    category: "react",
-    description:
-      "Course and Trainer Management Application Dashboard A modern web application designed for managing educational courses with full CRUD functionality. Built using React and React Router, the dashboard allows admins to create, view, update, and delete course details in a clean, responsive UI.",
-    demoURL: "https://dashboard-trainer-management.vercel.app/",
-    githubURL: "https://github.com/osamashehta/Dashboard-Trainer-Management",
-    img: dashboardImg,
-    tools: [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "React-Router-Dom",
-      "React-Hook-Form",
-      "Zod",
-    ],
-  },
+  // {
+  //   id: 11,
+  //   title: "Course and Trainer Management",
+  //   category: "react",
+  //   description:
+  //     "Course and Trainer Management Application Dashboard A modern web application designed for managing educational courses with full CRUD functionality. Built using React and React Router, the dashboard allows admins to create, view, update, and delete course details in a clean, responsive UI.",
+  //   demoURL: "https://dashboard-trainer-management.vercel.app/",
+  //   githubURL: "https://github.com/osamashehta/Dashboard-Trainer-Management",
+  //   img: dashboardImg,
+  //   tools: [
+  //     "React",
+  //     "TypeScript",
+  //     "Tailwind CSS",
+  //     "React-Router-Dom",
+  //     "React-Hook-Form",
+  //     "Zod",
+  //   ],
+  // },
   {
     id: 12,
     title: "Linkedin Clone",
