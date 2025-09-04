@@ -13,6 +13,7 @@ import portfolioImg from "../../assets/portfolio.png";
 import cartifyImg from "../../assets/cartify.jpg";
 import dashboardImg from "../../assets/dashboard.png";
 import linkImg from "../../assets/link.png";
+import parkingImg from "../../assets/parking.png";
 
 const projects = [
   // {
@@ -282,6 +283,30 @@ const projects = [
       "React Toastify",
     ],
     isCompanyProject: true,
+  },
+  {
+    id: 17,
+    title: "Parking Reservations System",
+    category: "next",
+    description:
+      "A modern parking management system built with Next.js 15, TypeScript, and React Query. This project provides real-time parking gate management, zone monitoring, and administrative controls for parking facilities.",
+    demoURL:
+      "https://www.linkedin.com/posts/osama-shehta_parking-reservations-system-frontend-a-activity-7369359911748612099-4fbG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgEx2cBQitC1n3XDoG0EYGik8iXaE7To38",
+    githubURL:
+      "https://github.com/osamashehta/parking-reservations-system-frontend",
+    img: parkingImg,
+    tools: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "ShadCN UI",
+      "Websocket",
+      "React Hook Form",
+      "Axios",
+      "TanStack React Query",
+      "react-hot-toast",
+    ],
+    isCompanyProject: false,
   },
 ];
 

@@ -13,11 +13,11 @@ import { IoLogoJavascript } from "react-icons/io";
 import {
   SiAdobexd,
   SiAxios,
-  SiCypress,
   SiFirebase,
   SiFormik,
   SiGitlab,
   SiI18Next,
+  SiJest,
   SiJquery,
   SiPostman,
   SiPusher,
@@ -176,8 +176,8 @@ function SkillsContainer() {
     },
     {
       id: 30,
-      brand: <SiCypress />,
-      brandName: "Cypress (E2E Testing)",
+      brand: <SiJest />,
+      brandName: "Jest (Unit Testing)",
     },
   ];
   return (
