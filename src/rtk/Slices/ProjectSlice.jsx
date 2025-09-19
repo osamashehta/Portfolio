@@ -190,11 +190,11 @@ const projects = [
 
   {
     id: 13,
-    title: "Da3m (Al-Masader Al-Raqmiyah)",
+    title: "lunar care beauty (Al-Masader Al-Raqmiyah)",
     category: "next",
     description:
-      "Developed full authentication UI including login, signup, and secured access. Built core features such as ad listings, create ad form, service request form for consultation & feasibility study, booking appointments, and user profile management. Implemented dynamic notification center and in-app payment flow. Used React Hook Form for robust validation with real-time feedback via React Toastify. Managed API communication with Axios and server state using TanStack React Query.",
-    demoURL: null,
+      "Developed full authentication UI including login, signup, and secured access. Built core features such as ad listings, create ad form, booking appointments, and user profile management. Implemented dynamic notification center and in-app payment flow. Used React Hook Form for robust validation with real-time feedback via React Toastify. Managed API communication with Axios and server state using TanStack React Query.",
+    demoURL: "https://lunarcarebeauty.com/ar",
     githubURL: null,
     img: null,
     tools: [
@@ -219,7 +219,7 @@ const projects = [
     category: "next",
     description:
       "Developed a complete authentication module with login and signup using Next.js. Built core features including chat rooms, join room flow, room details with members list, and user profile page. Implemented appointment booking and an auction system for product negotiation between seller and client with accept, reject, or counter-offer functionality. Developed an internal wallet system for service participation and balance top-up. Enabled account upgrade flows to Trainer, Investor, or Service Provider roles.",
-    demoURL: null,
+    demoURL: "https://mohadalkhalig.com/ar",
     githubURL: null,
     img: null,
     tools: [
@@ -243,7 +243,7 @@ const projects = [
     category: "next",
     description:
       "Developed a full-featured multilingual website for a law firm using Next.js, Tailwind CSS, and next-intl. Built complete frontend architecture for key pages including Home, About Us, Services, Service Details, Team, Lawyer Profile, Blog, Article Details, and Contact Us. Integrated smooth animations with Framer Motion and form validation with React Hook Form. Handled API integration using Axios and efficient data fetching with TanStack React Query.",
-    demoURL: null,
+    demoURL: "https://brojui.nextbitpay.com/ar",
     githubURL: null,
     img: null,
     tools: [
@@ -266,7 +266,7 @@ const projects = [
     category: "next",
     description:
       "Developed a full-featured web app for a bilingual beauty deals marketplace using Next.js. Built a secure authentication system with mobile verification and role-based access. Implemented account registration flows with profile setup, license upload, area selection, and category filtering. Designed key user features including explore offers, view details, buy discount cards, manage favorites, and language switching. Built end-to-end 'Buy Card' flow with personal info entry, delivery/payment options, and URL sharing.",
-    demoURL: null,
+    demoURL: "https://khud.com.sa/ar",
     githubURL: null,
     img: null,
     tools: [
