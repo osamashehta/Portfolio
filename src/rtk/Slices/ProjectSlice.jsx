@@ -14,6 +14,7 @@ import cartifyImg from "../../assets/cartify.jpg";
 import dashboardImg from "../../assets/dashboard.png";
 import linkImg from "../../assets/link.png";
 import parkingImg from "../../assets/parking.png";
+import assistantImg from "../../assets/AIAssistant.png";
 
 const projects = [
   // {
@@ -28,39 +29,39 @@ const projects = [
   //   tools: ["html", "css"],
   // },
 
-  {
-    id: 1,
-    title: "Devfolio",
-    category: "bootstrap",
-    description:
-      "Fully responsive website that ensures a seamless user experience across all devices. Implemented interactive features to enhance user engagement and functionality on various screen sizes.",
-    demoURL: "https://osamashehta.github.io/DevFolio/",
-    githubURL: "https://github.com/osamashehta/DevFolio",
-    img: devfolioImg,
-    tools: ["html", "css", "bootstrap"],
-  },
-  {
-    id: 2,
-    title: "Ninja",
-    category: "bootstrap",
-    description:
-      "Fully responsive website that ensures a seamless user experience across all devices. Implemented interactive features to enhance user engagement and functionality on various screen sizes.",
-    demoURL: "https://osamashehta.github.io/Ninja/",
-    githubURL: "https://github.com/osamashehta/Ninja",
-    img: ninjaImg,
-    tools: ["html", "css", "bootstrap"],
-  },
-  {
-    id: 3,
-    title: "Geek",
-    category: "bootstrap",
-    description:
-      "Fully responsive website that ensures a seamless user experience across all devices. Implemented interactive features to enhance user engagement and functionality on various screen sizes.",
-    demoURL: "https://osamashehta.github.io/Geek/",
-    githubURL: "https://github.com/osamashehta/Geek",
-    img: geekImg,
-    tools: ["html, css"],
-  },
+  // {
+  //   id: 1,
+  //   title: "Devfolio",
+  //   category: "bootstrap",
+  //   description:
+  //     "Fully responsive website that ensures a seamless user experience across all devices. Implemented interactive features to enhance user engagement and functionality on various screen sizes.",
+  //   demoURL: "https://osamashehta.github.io/DevFolio/",
+  //   githubURL: "https://github.com/osamashehta/DevFolio",
+  //   img: devfolioImg,
+  //   tools: ["html", "css", "bootstrap"],
+  // },
+  // {
+  //   id: 2,
+  //   title: "Ninja",
+  //   category: "bootstrap",
+  //   description:
+  //     "Fully responsive website that ensures a seamless user experience across all devices. Implemented interactive features to enhance user engagement and functionality on various screen sizes.",
+  //   demoURL: "https://osamashehta.github.io/Ninja/",
+  //   githubURL: "https://github.com/osamashehta/Ninja",
+  //   img: ninjaImg,
+  //   tools: ["html", "css", "bootstrap"],
+  // },
+  // {
+  //   id: 3,
+  //   title: "Geek",
+  //   category: "bootstrap",
+  //   description:
+  //     "Fully responsive website that ensures a seamless user experience across all devices. Implemented interactive features to enhance user engagement and functionality on various screen sizes.",
+  //   demoURL: "https://osamashehta.github.io/Geek/",
+  //   githubURL: "https://github.com/osamashehta/Geek",
+  //   img: geekImg,
+  //   tools: ["html, css"],
+  // },
   // {
   //   id: 4,
   //   title: "Login System",
@@ -72,39 +73,39 @@ const projects = [
   //   img: loginImg,
   //   tools: ["React", "TypeScript", "Tailwind CSS", "React-Hook-Form", "Zod"],
   // },
-  {
-    id: 5,
-    title: "Bookmark (CRUD)",
-    category: "javascript",
-    description:
-      "Designed and implemented a responsive Bookmark Manager web application with full CRUD (Create, Read, Update, Delete) functionality, including an Archive page for restoring or permanently deleting bookmarks",
-    demoURL: "https://osamashehta.github.io/Bookmark-CRUD-Operation/",
-    githubURL: "https://github.com/osamashehta/Bookmark-CRUD-Operation",
-    img: crudImg,
-    tools: ["HTML", "CSS", "Bootstrap", "Javascript"],
-  },
-  {
-    id: 6,
-    title: "Weather Forecast",
-    category: "javascript",
-    description:
-      "An innovative and user-friendly Weather Forecast application built with HTML, CSS, and JavaScript. This project fetches real-time weather data using the WeatherAPI and displays current conditions and forecasts for any city or location.",
-    demoURL: "https://osamashehta.github.io/Weather-Forecast/",
-    githubURL: "https://github.com/osamashehta/Weather-Forecast",
-    img: weatherImg,
-    tools: ["HTML", "CSS", "Bootstrap", "Javascript", "API"],
-  },
-  {
-    id: 7,
-    title: "Game Over",
-    category: "javascript",
-    description:
-      "An interactive and user-friendly Games-OOP application built with HTML, CSS, and JavaScript. This project uses the Free to Play Games Database API to fetch game details based on the user's selected genre and displays a collection of free-to-play games.",
-    demoURL: "https://osamashehta.github.io/Games-OOP/",
-    githubURL: "https://github.com/osamashehta/Games-OOP",
-    img: gameImg,
-    tools: ["HTML", "CSS", "Bootstrap", "Javascript", "OOP", "API"],
-  },
+  // {
+  //   id: 5,
+  //   title: "Bookmark (CRUD)",
+  //   category: "javascript",
+  //   description:
+  //     "Designed and implemented a responsive Bookmark Manager web application with full CRUD (Create, Read, Update, Delete) functionality, including an Archive page for restoring or permanently deleting bookmarks",
+  //   demoURL: "https://osamashehta.github.io/Bookmark-CRUD-Operation/",
+  //   githubURL: "https://github.com/osamashehta/Bookmark-CRUD-Operation",
+  //   img: crudImg,
+  //   tools: ["HTML", "CSS", "Bootstrap", "Javascript"],
+  // },
+  // {
+  //   id: 6,
+  //   title: "Weather Forecast",
+  //   category: "javascript",
+  //   description:
+  //     "An innovative and user-friendly Weather Forecast application built with HTML, CSS, and JavaScript. This project fetches real-time weather data using the WeatherAPI and displays current conditions and forecasts for any city or location.",
+  //   demoURL: "https://osamashehta.github.io/Weather-Forecast/",
+  //   githubURL: "https://github.com/osamashehta/Weather-Forecast",
+  //   img: weatherImg,
+  //   tools: ["HTML", "CSS", "Bootstrap", "Javascript", "API"],
+  // },
+  // {
+  //   id: 7,
+  //   title: "Game Over",
+  //   category: "javascript",
+  //   description:
+  //     "An interactive and user-friendly Games-OOP application built with HTML, CSS, and JavaScript. This project uses the Free to Play Games Database API to fetch game details based on the user's selected genre and displays a collection of free-to-play games.",
+  //   demoURL: "https://osamashehta.github.io/Games-OOP/",
+  //   githubURL: "https://github.com/osamashehta/Games-OOP",
+  //   img: gameImg,
+  //   tools: ["HTML", "CSS", "Bootstrap", "Javascript", "OOP", "API"],
+  // },
 
   {
     id: 8,
@@ -308,6 +309,27 @@ const projects = [
     ],
     isCompanyProject: false,
   },
+  {
+  id: 18,
+  title: "AI-Assistant",
+  category: "next",
+  description:
+    "Built a modern AI chat assistant with real-time streaming responses using Vercel AI SDK (@ai-sdk/react) and AI Elements. Features a professional conversation UI, light/dark mode, and responsive design.",
+  demoURL: "https://ai-assistant-rho-rose.vercel.app/",
+  githubURL: "https://github.com/osamashehta/AI-Assistant",
+  img: assistantImg, 
+  tools: [
+    "Next.js 15",
+    "TypeScript",
+    "Tailwind CSS",
+    "ShadCN UI",
+    "Vercel AI SDK (@ai-sdk/react)",
+    "AI Elements",
+    "next-themes",
+    "Lucide React Icons"
+  ],
+  isCompanyProject: false,
+},
 ];
 
 export const projectSlice = createSlice({

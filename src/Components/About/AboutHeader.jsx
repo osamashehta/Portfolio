@@ -130,36 +130,49 @@ const AboutHeader = () => {
       isCompanyProject: true,
     },
 
+
+     {
+    title: "lunar care beauty",
+    description:
+      "Developed full authentication UI including login, signup, and secured access. Built core features such as ad listings, create ad form, booking appointments, and user profile management. Implemented dynamic notification center and in-app payment flow. Used React Hook Form for robust validation with real-time feedback via React Toastify. Managed API communication with Axios and server state using TanStack React Query.",
+     githubUrl: null, // Company project
+      liveUrl: null, // Company project
+      featured: true,
+      isCompanyProject: true,
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "React Hook Form",
+      "Zod",
+      "Axios",
+      "TanStack React Query",
+      "next-intl",
+      "Swiper.js",
+      "React Toastify",
+      "ShadCN UI",
+    ],
+    isCompanyProject: true,
+  },
     {
-      title: "LinkedIn Clone",
+      title: "AI-Assistant",
       description:
-        "A full-featured social networking platform built with Next.js 15, featuring real-time updates, user authentication, post creation, commenting, and reporting system. Optimized for performance with SSR and modern React patterns.",
+        "Built a modern AI chat assistant with real-time streaming responses using Vercel AI SDK (@ai-sdk/react) and AI Elements. Features a professional conversation UI, light/dark mode, and responsive design.",
       technologies: [
         "Next.js 15",
         "TypeScript",
         "Tailwind CSS",
-        "Authentication",
-        "Real-time",
+        "ShadCN UI",
+        "Vercel AI SDK (@ai-sdk/react)",
+        "AI Elements",
+        "next-themes",
+        "Lucide React Icons"
       ],
-      githubUrl: "https://github.com/osamashehta/Link",
-      liveUrl: "", // Add if available
+      githubUrl: "https://github.com/osamashehta/AI-Assistant",
+      liveUrl: "",
       featured: true,
     },
-    {
-      title: "Cartify E-commerce",
-      description:
-        "A comprehensive e-commerce solution with advanced filtering, cart management, secure checkout, and order tracking. Built with modern React ecosystem and optimized for conversion.",
-      technologies: [
-        "React.js",
-        "TanStack Query",
-        "Tailwind CSS",
-        "Formik",
-        "Yup",
-      ],
-      githubUrl: "https://github.com/osamashehta/Cartify",
-      liveUrl: "", // Add if available
-      featured: true,
-    },
+
+  
   ];
 
   const experiences = [
@@ -195,20 +208,27 @@ const AboutHeader = () => {
           </p>
         </div>
 
-        <div className="prose prose-lg dark:prose-invert max-w-none">
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-            Frontend Developer with proven expertise in building{" "}
-            <strong>scalable, multilingual web applications</strong> using
-            modern React ecosystem technologies. Demonstrated proficiency in
-             <strong> React.js</strong>, <strong>TypeScript</strong>, <strong>Next.js</strong>, and advanced state management solutions (Redux
-            Toolkit, TanStack Query). Specializes in creating high-performance,
-            accessible user interfaces with Tailwind CSS while ensuring seamless
-            API integration and optimal user experience. Experienced in
-            implementing <strong>real-time features</strong> including chat
-            systems using Pusher. Committed to delivering innovative,
-            user-centered solutions in collaborative development environments.
-          </p>
-        </div>
+      <div className="prose prose-lg dark:prose-invert max-w-none">
+  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+    Frontend Developer with proven expertise in building{" "}
+    <strong>scalable, multilingual web applications</strong> using modern
+    React ecosystem technologies. Demonstrated proficiency in{" "}
+    <strong>React.js</strong>, <strong>TypeScript</strong>,{" "}
+    <strong>Next.js</strong>, and advanced state management solutions like{" "}
+    <strong>Redux Toolkit</strong> and <strong>TanStack Query</strong>. Skilled
+    in creating high-performance, accessible user interfaces with{" "}
+    <strong>Tailwind CSS</strong> and <strong>ShadCN UI</strong> while ensuring
+    seamless API integration and optimal user experience. Experienced in
+    implementing <strong>real-time features</strong> including chat systems
+    using <strong>Firebase</strong>, <strong>Pusher</strong>, and{" "}
+    <strong>WebSockets</strong>. Additionally, I integrate <strong>AI capabilities</strong> into web applications using{" "}
+    <strong>Vercel AI SDK (@ai-sdk/react)</strong> and{" "}
+    <strong>AI Elements</strong> to build responsive, real-time streaming AI
+    assistants. Committed to delivering innovative, user-centered solutions in
+    collaborative development environments.
+  </p>
+</div>
+
 
         {/* Quick Stats */}
         <div className="flex flex-wrap gap-4 pt-4">

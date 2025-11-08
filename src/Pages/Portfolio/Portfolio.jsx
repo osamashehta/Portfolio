@@ -20,7 +20,7 @@ function Portfolio() {
             Projects
           </div>
         </div>
-        <div className="w-4/5 mx-auto flex ">
+        {/* <div className="w-4/5 mx-auto flex ">
           <div className="taps flex flex-wrap w-full justify-center items-center gap-4 my-4">
             <button
               className="py-2 px-4 bg-slate-950  text-white dark:bg-white dark:text-slate-950 text-[12px] md:text-[14px] lg:text-[16px] rounded-[25px] hover:shadow-md hover:shadow-blue-400 "
@@ -47,7 +47,7 @@ function Portfolio() {
               Next.js
             </button>
           </div>
-        </div>
+        </div> */}
         <div className="projects w-4/5 mx-auto flex flex-wrap justify-center my-2 gap-6">
           {filteredProjects.map((projects) => (
             <Projects key={projects.id} project={projects} />
