@@ -358,7 +358,7 @@ const AboutHeader = () => {
               <DownloadCV />
               <div className="flex gap-4">
                 <a
-                  href="https://linkedin.com/in/your-profile"
+                  href="http://linkedin.com/in/osama-shehta" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-3 py-2 border border-gray-300 rounded-md hover:bg-gray-50 dark:border-gray-600 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300 transition-colors text-sm"
